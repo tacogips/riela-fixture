@@ -1,0 +1,28 @@
+{
+  "kind": "node-addon",
+  "name": "fixture-node-addon-unreferenced-file",
+  "version": "0.1.0",
+  "title": "Fixture Node Add-on Unreferenced File",
+  "description": "Invalid node-addon fixture package containing an unreferenced add-on file.",
+  "tags": [
+    "fixture",
+    "node-addon",
+    "error",
+    "unreferenced-file"
+  ],
+  "registry": "fixture",
+  "checksum": "db675f5868892962821941aeddc08496",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "414ed97db882a4d55abbb9b13de67363d214be4b8589118a404f495b130b0dd9"
+  },
+  "addons": [
+    {
+      "name": "fixture/unreferenced-file",
+      "version": "1",
+      "sourcePath": "addons/fixture/unreferenced-file/1"
+    }
+  ],
+  "repository": "https://github.com/tacogips/riela-fixture"
+}

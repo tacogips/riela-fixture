@@ -1,0 +1,37 @@
+{
+  "name": "fixture-workflow-package-sandbox-review",
+  "version": "0.1.0",
+  "title": "Fixture Workflow Package Sandbox Review",
+  "description": "Demonstrates riela/workflow-package-sandbox-review as a normal workflow node.",
+  "tags": [
+    "fixture",
+    "security",
+    "sandbox",
+    "llm-review"
+  ],
+  "workflow": {
+    "title": "Fixture Workflow Package Sandbox Review",
+    "description": "Demonstrates riela/workflow-package-sandbox-review as a normal workflow node.",
+    "tags": [
+      "fixture",
+      "security",
+      "sandbox",
+      "llm-review"
+    ],
+    "backends": [
+      "codex-agent"
+    ]
+  },
+  "registry": "fixture",
+  "checksum": "2c27790dd27b1e8a6bddcbf17ba07313",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "d666965103a5d97a8af8a5173d5d68d93b49c3a9a75808b955ffd1a70d768943"
+  },
+  "workflowDirectory": "workflows/fixture-workflow-package-sandbox-review",
+  "repository": "https://github.com/tacogips/riela-fixture",
+  "backends": [
+    "codex-agent"
+  ]
+}

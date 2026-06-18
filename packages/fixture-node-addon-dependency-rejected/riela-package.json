@@ -1,0 +1,31 @@
+{
+  "kind": "node-addon",
+  "name": "fixture-node-addon-dependency-rejected",
+  "version": "0.1.0",
+  "title": "Fixture Node Add-on Dependency Rejected",
+  "description": "Invalid node-addon fixture package with declared dependencies, which are unsupported in the first node-addon package iteration.",
+  "tags": [
+    "fixture",
+    "node-addon",
+    "error",
+    "dependency"
+  ],
+  "registry": "fixture",
+  "checksum": "4ee199451f99ba844db75a818b466448",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "32982d062438073016f9697cc538592de7b738cb6721f7c78d091b48b2726d9c"
+  },
+  "addons": [
+    {
+      "name": "fixture/dependency-rejected",
+      "version": "1",
+      "sourcePath": "addons/fixture/dependency-rejected/1"
+    }
+  ],
+  "dependencies": [
+    "fixture-clean-workflow"
+  ],
+  "repository": "https://github.com/tacogips/riela-fixture"
+}

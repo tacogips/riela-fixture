@@ -1,0 +1,27 @@
+{
+  "kind": "node-addon",
+  "name": "fixture-node-addon-release-note",
+  "version": "0.1.0",
+  "title": "Fixture Node Add-on Release Note",
+  "description": "Valid node-addon fixture package for successful search and checkout.",
+  "tags": [
+    "fixture",
+    "node-addon",
+    "safe"
+  ],
+  "registry": "fixture",
+  "checksum": "4a38bf96f4f4cdb6c2c0f57f00c01e15",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "a06d66cc9c693ec72985187321f160a6f1f9516001fc7bfe69c3b1a03370df74"
+  },
+  "addons": [
+    {
+      "name": "fixture/release-note",
+      "version": "1",
+      "sourcePath": "addons/fixture/release-note/1"
+    }
+  ],
+  "repository": "https://github.com/tacogips/riela-fixture"
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "node-addon",
+  "name": "fixture-node-addon-executable-file",
+  "version": "0.1.0",
+  "title": "Fixture Node Add-on Executable File",
+  "description": "Invalid node-addon fixture package containing JavaScript code.",
+  "tags": [
+    "fixture",
+    "node-addon",
+    "error",
+    "executable-file"
+  ],
+  "registry": "fixture",
+  "checksum": "da5ba41a06cfff2e5883b3d41b02d9f2",
+  "checksumAlgorithm": "md5",
+  "integrity": {
+    "digestAlgorithm": "sha256",
+    "digest": "6711c3f0dbc077cd87eeecace62c46e21b1aaebedbc53b480d94b24c37e11476"
+  },
+  "addons": [
+    {
+      "name": "fixture/executable-file",
+      "version": "1",
+      "sourcePath": "addons/fixture/executable-file/1"
+    }
+  ],
+  "repository": "https://github.com/tacogips/riela-fixture"
+}
