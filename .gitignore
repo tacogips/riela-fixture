@@ -29,7 +29,6 @@ Thumbs.db
 .direnv/
 result
 /result-*
-/.pre-commit-config.yaml
 
 # Logs
 logs/
